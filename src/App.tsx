@@ -6,6 +6,7 @@ import {
   QuestionState
 } from './utils/API'
 import { GlobalStyle, Wrapper } from './App.styles'
+import Sample from './Sample'
 
 export type AnswerObject = {
   question: string;
@@ -65,6 +66,7 @@ const App = () => {
   }
   return (
     <>
+      <Sample />
       <GlobalStyle/>
       <Wrapper>
         <h1>REACT QUIZ</h1>
